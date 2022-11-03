@@ -1,0 +1,49 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        table
+        {
+            margin-top: 100px;
+        }
+        /*body*/
+        /*{*/
+        /*    background-color: black;*/
+        /*}*/
+    </style>
+</head>
+<body class="bg-dark">
+<div th:replace="fragments/header :: header" />
+
+
+<table id="tablelist" class="table table-dark table-hover">
+    <thead>
+        <td class="col-1">번호</td>
+        <td class="col-7">제목</td>
+        <td class="col-1">작성자</td>
+        <td class="col-1">조회수</td>
+        <td class="col-3">날짜</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td> <!--id -->
+            <td>ㅎㅎ</td>
+            <td>와왕</td>
+            <td>1</td>
+            <td>2022-11-03</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ghgh</td>
+            <td>와왕</td>
+            <td>2</td>
+            <td>2022-11-03</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
